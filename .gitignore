@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/HandsOn
+/HandsOn.Api/bin
+/HandsOn.Api/obj
+/HandsOn.Api/Properties/ServiceDependencies/handson - Zip Deploy
+/HandsOn.Api/Properties/launchSettings.json
+/HandsOn.Api/Properties/PublishProfiles
+/HandsOn.AppHost/bin/Debug/net8.0
+/HandsOn.AppHost/obj
+/HandsOn.Dto/bin
+/HandsOn.Dto/obj
+/HandsOn.Regras/bin
+/HandsOn.Regras/obj
+/HandsOn.Repositorio/bin
+/HandsOn.Repositorio/obj
+/HandsOn.ServiceDefaults/bin
+/HandsOn.ServiceDefaults/obj
