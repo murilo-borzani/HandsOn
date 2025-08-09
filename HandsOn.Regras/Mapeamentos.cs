@@ -9,7 +9,13 @@ namespace HandsOn.Regras
         {
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<Repositorio.Entidades.PlanoContas, Dto.PlanoContasDto>().ReverseMap();
+                cfg.CreateMap<Repositorio.Entidades.PlanoContas, Dto.PlanoContasDto>()
+                .AfterMap((src, dest) =>
+                {
+                    dest.Codigo = src.CodigoCompleto;
+
+                }).ReverseMap();
+                
                 cfg.CreateMap<Repositorio.Entidades.Usuario, Dto.UsuarioDto>().ReverseMap();
             });
 

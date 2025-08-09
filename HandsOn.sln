@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOn.Repositorio", "Hand
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOn.Dto", "HandsOn.Dto\HandsOn.Dto.csproj", "{CE03CDDB-5459-4BC3-9F00-BE49DCE5B861}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOn.Api.Tests", "HandsOn.Api.Tests\HandsOn.Api.Tests.csproj", "{6036F8E2-F510-4FA8-AF52-00BC3F712B1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{CE03CDDB-5459-4BC3-9F00-BE49DCE5B861}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE03CDDB-5459-4BC3-9F00-BE49DCE5B861}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE03CDDB-5459-4BC3-9F00-BE49DCE5B861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6036F8E2-F510-4FA8-AF52-00BC3F712B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6036F8E2-F510-4FA8-AF52-00BC3F712B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6036F8E2-F510-4FA8-AF52-00BC3F712B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6036F8E2-F510-4FA8-AF52-00BC3F712B1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

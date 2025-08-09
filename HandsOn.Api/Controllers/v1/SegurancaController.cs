@@ -8,6 +8,7 @@ namespace HandsOn.Api.Controllers.v1
     [ApiController]
     [Route("v{version:apiVersion}/seguranca")]
     [ApiVersion("1.0")]
+#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
     public class SegurancaController : Controller
     {
         readonly ISegurancaServico _segurancaServico;
@@ -17,6 +18,11 @@ namespace HandsOn.Api.Controllers.v1
             _segurancaServico = segurancaServico ?? throw new ArgumentNullException(nameof(segurancaServico));
         }
 
+        /// <summary>
+        /// Gera token de acesso para o cliente, validando as credenciais informadas.
+        /// </summary>
+        /// <param name="cliente"></param>
+        /// <returns></returns>
         [HttpPost, Route("token")]
         public async Task<ActionResult<ClienteToken>> Token([FromBody] ClienteApi cliente)
         {

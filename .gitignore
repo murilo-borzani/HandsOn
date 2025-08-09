@@ -18,3 +18,5 @@
 /HandsOn.Repositorio/obj
 /HandsOn.ServiceDefaults/bin
 /HandsOn.ServiceDefaults/obj
+/HandsOn.Api.Tests/bin/Debug/net8.0
+/HandsOn.Api.Tests/obj
