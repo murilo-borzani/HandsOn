@@ -24,6 +24,8 @@ Para rodar local, se faz necessário o SDK .Net 8 e adicionar algumas chaves no 
 ### Banco de dados
 O projeto está configurado para utilizar um Sql Server Azure em minha conta pessoal. Podem utilizar para os testes.
 
+O script para criação do DB e os dados de teste, estão no arquivo [teste.bacpac](/teste.bacpac)
+
 ### Chamando a API
 Para facilitar, o projeto está publicado na Azure no seguinte endereço: https://handson-deckbrckehakd3bw.centralus-01.azurewebsites.net/
 
